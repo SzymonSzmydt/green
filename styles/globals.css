@@ -1,0 +1,28 @@
+:root {
+  --primary-color: rgba(86, 111, 107, 1);
+  --accent-color: rgb(122, 179, 170);
+  --white-color: #fff;
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html,
+body {
+  max-width: 100vw;
+  overflow-x: hidden;
+  background-color: var(--white-color);
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.container {
+  max-width: 1266px;
+  margin: 0 auto;
+}
